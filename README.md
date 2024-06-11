@@ -1,5 +1,5 @@
 # Integrantes
-Eduardo Soares
-Gian Pablo
-Maria Eduarda
-Pedro Pierri
+- Eduardo Soares
+- Gian Pablo
+- Maria Eduarda
+- Pedro Pierri
