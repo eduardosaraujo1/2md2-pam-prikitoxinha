@@ -1,8 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/relatorio-style.css" />
+        <script
+            src="https://kit.fontawesome.com/cce01e304f.js"
+            crossorigin="anonymous"
+        ></script>
     </head>
-    <body></body>
+    <body>
+        <div class="container">
+            <!-- NAVBAR - Provavelmente não é necessária na tela de pesquisa, ponha só se quiser -->
+            <div class="header">
+                <span>&nbsp;Tela De Pesquisa</span>
+            </div>
+            <!-- Barra de pesuqisa -->
+            <div class="container-wrapper">
+                <div class="container-search">
+                    <div class="input-wrapper">
+                        <input placeholder="Pesquisar..." />
+                        <i class="fa fa-search"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- Lugar onde o javascript vai exibir os itens da pesquisa - Não temos isso do Paulo ainda então só deixa do jeito que ta -->
+            <div class="wrapper">
+                <div class="relatorio"></div>
+            </div>
+            <!-- Botão Voltar - Talvez não seja necessário na tela de pesquisa, ponha só se quiser -->
+            <button type="button" class="btn-azul">Voltar</button>
+        </div>
+    </body>
 </html>
